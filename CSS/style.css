@@ -74,7 +74,20 @@ body {
     padding-left: 14%;
     width: auto;
     height: auto;
-    padding-bottom: 255px;
+    padding-bottom: 126px;
+}
+
+.contato .navItens img {
+    max-width: 40px;
+    max-height: 40px;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-left: 0px;
+    cursor: auto;
+}
+
+.contato h3 {
+    padding-bottom: 50px;
 }
 
 .sobreImagemContainer {
