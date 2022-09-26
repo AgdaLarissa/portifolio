@@ -12,7 +12,6 @@ body {
 }
 
 body {
-    /* width: 80%;*/
     margin: 0 auto;
 }
 
@@ -70,7 +69,6 @@ body {
 
 .contato {
     display: none;
-    /*grid-template-columns: 1fr 2fr;*/
     padding-left: 14%;
     width: auto;
     height: auto;
@@ -220,7 +218,6 @@ footer .navItens li {
 }
 
 .back a {
-    /*padding-bottom: 150px;*/
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: rgb(219, 107, 107);
