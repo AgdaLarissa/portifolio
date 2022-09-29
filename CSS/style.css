@@ -32,6 +32,10 @@ body {
     display: flex;
 }
 
+.navItens a {
+    text-decoration: none;
+}
+
 .navItens li {
     display: flex;
     justify-content: center;
@@ -52,7 +56,7 @@ body {
 }
 
 .navItens a:hover {
-    background-color: #FFEFD5;
+    background-image: linear-gradient(to right, #e39292, #f5e0e0);
 }
 
 .main {
@@ -130,7 +134,7 @@ h3 {
 }
 
 footer {
-    padding-top: 110px;
+    padding-top: 90px;
     padding-left: 271px;
     display: flex;
     justify-content: center;
@@ -158,10 +162,10 @@ footer .navItens li {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     position: relative;
-    background-color: #FFEFD5;
+    background-image: linear-gradient(to right, #e39292, #f5e0e0);
     text-align: center;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .card img {
@@ -193,10 +197,20 @@ footer .navItens li {
     transform: rotateY(180deg);
 }
 
+#crud:checked~.flipCard #crud_card {
+    transform: rotateY(180deg);
+}
+
+#time:checked~.flipCard #time_card {
+    transform: rotateY(180deg);
+}
+
 #app,
 #calc,
 #site,
-#est {
+#est,
+#crud,
+#time {
     display: none;
 }
 
@@ -220,16 +234,29 @@ footer .navItens li {
 .back a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(219, 107, 107);
+    color: rgb(201, 58, 58);
     font-size: 15px;
     cursor: pointer;
 
 }
 
 .back a:hover {
-    color: rgb(225, 191, 215);
+    color: rgb(242, 238, 118);
 }
 
+.seguinte a {
+    text-decoration: none;
+    align-items: right;
+    padding-left: 1280px;
+    font-size: 17px;
+}
+
+.voltar a {
+    text-decoration: none;
+    align-items: right;
+    padding-left: 150px;
+    font-size: 17px;
+}
 
 @media (max-width: 1288px) {
     #menu {
