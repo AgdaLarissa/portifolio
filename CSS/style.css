@@ -56,7 +56,7 @@ body {
 }
 
 .navItens a:hover {
-    background-image: linear-gradient(to right, #e39292, #f5e0e0);
+    background-image: linear-gradient(to right, #e39292, #fbeeee);
 }
 
 .main {
@@ -162,7 +162,7 @@ footer .navItens li {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     position: relative;
-    background-image: linear-gradient(to right, #e39292, #f5e0e0);
+    background-image: linear-gradient(to right, #e89e9e, #fbeeee);
     text-align: center;
     cursor: pointer;
     border-radius: 30px;
@@ -342,5 +342,13 @@ footer .navItens li {
         flex-direction: column;
         align-items: center;
         margin-left: 0px;
+    }
+
+    .seguinte a {
+        padding: 70%;
+    }
+
+    .voltar a {
+        padding: 18%;
     }
 }
