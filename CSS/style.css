@@ -346,9 +346,11 @@ footer .navItens li {
 
     .seguinte a {
         padding: 70%;
+        cursor: pointer;
     }
 
     .voltar a {
         padding: 18%;
+        cursor: pointer;
     }
 }
